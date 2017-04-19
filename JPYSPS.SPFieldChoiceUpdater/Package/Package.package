@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="4afed3ca-4e64-4be8-b131-b526dfe8d4ee" solutionId="4afed3ca-4e64-4be8-b131-b526dfe8d4ee" resetWebServer="false" sharePointProductVersion="15.0" name="JPYSPS.SPFieldChoiceUpdater" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="4afed3ca-4e64-4be8-b131-b526dfe8d4ee" solutionId="4afed3ca-4e64-4be8-b131-b526dfe8d4ee" resetWebServer="false" name="JPYSPS.SPFieldChoiceUpdater" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
   <features>
     <featureReference itemId="90430c07-67ab-4f33-8b40-82848e29e479" />
   </features>
