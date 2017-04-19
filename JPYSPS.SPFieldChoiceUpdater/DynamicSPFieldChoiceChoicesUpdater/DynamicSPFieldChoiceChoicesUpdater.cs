@@ -43,7 +43,7 @@ namespace JPYSPS.SPFieldChoiceUpdater.DynamicSPFieldChoiceChoicesUpdater
                     choices.AddRange(f.Choices.Cast<string>().ToList());
                     choices.RemoveAll(str => String.IsNullOrEmpty(str));
                     choices = choices.Distinct().ToList();
-                    System.IO.File.AppendAllText(@"c:\ppy\DSPFCU." + list.Title + ".txt", f.InternalName + " :::: " + string.Join(",", choices.ToArray()) + Environment.NewLine);
+                    //System.IO.File.AppendAllText(@"c:\ppy\DSPFCU." + list.Title + ".txt", f.InternalName + " :::: " + string.Join(",", choices.ToArray()) + Environment.NewLine);
                     choices.ForEach(c =>
                     {
                         if (!(f.Choices.Contains(c)))
