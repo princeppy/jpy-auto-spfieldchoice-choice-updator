@@ -3,4 +3,7 @@
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="DynamicSPFieldChoiceChoicesUpdater\" Type="ElementManifest" />
   </Files>
+  <SafeControls>
+    <SafeControl Name="JPYSPS.SPFieldChoiceUpdater" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="JPYSPS.SPFieldChoiceUpdater.DynamicSPFieldChoiceChoicesUpdater" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
 </ProjectItem>
