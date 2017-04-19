@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers>
+  <!--<Receivers ListUrl="Lists/EducationalSoftwareV2">-->
+    <Receiver>
+      <Name>DynamicSPFieldChoiceChoicesUpdaterItemAdded</Name>
+      <Type>ItemAdded</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>JPYSPS.SPFieldChoiceUpdater.DynamicSPFieldChoiceChoicesUpdater.DynamicSPFieldChoiceChoicesUpdater</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>DynamicSPFieldChoiceChoicesUpdaterItemUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>JPYSPS.SPFieldChoiceUpdater.DynamicSPFieldChoiceChoicesUpdater.DynamicSPFieldChoiceChoicesUpdater</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+  </Receivers>
+</Elements>
